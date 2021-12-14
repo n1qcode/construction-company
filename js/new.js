@@ -23,6 +23,7 @@ for (let flt of flatsPath) {
     });
 
     mouseoutDeleteStyle(flt, flatsLink);
+    mouseoutDeleteStyle(flt, flatsPath);
 }
 
 for (let flk of flatsLink) {
@@ -37,6 +38,7 @@ for (let flk of flatsLink) {
     });
 
     mouseoutDeleteStyle(flk, flatsLink);
+    mouseoutDeleteStyle(flk, flatsPath);
 }
 
 //Example import and export
